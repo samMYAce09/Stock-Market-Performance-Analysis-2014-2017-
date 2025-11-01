@@ -160,7 +160,7 @@ The Power BI dashboard provides the interactive layer of the analysis. While Pyt
 **Dashboard Overview**
 
 At the top of the dashboard, three key summary metrics provide a high-level view of the market during the time period analyzed. The Average Stock Price of $86 reflects the central price tendency across all stocks studied. The Total Trading Volume of 2.12T highlights the significant level of market activity and liquidity. The percentage of stocks that demonstrated positive performance, 75.45%, suggests a generally upward market direction during the time span. Together, these values help frame the narrative of the market as active and growth-oriented.
-[KPIs](images/chartstockpriceKPI.png)
+[KPIs]([images/chartstockpriceKPI.png](https://github.com/samMYAce09/Stock-Market-Performance-Analysis-2014-2017-/blob/main/images/chartstockpriceKPI.png))
 
 
 ## Conclusion
