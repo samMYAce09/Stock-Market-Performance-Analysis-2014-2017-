@@ -157,11 +157,54 @@ This measure visually encodes “BUY,” “HOLD,” and “SELL” recommendati
 
 The Power BI dashboard provides the interactive layer of the analysis. While Python helped us compute trends, averages, and volatility, Power BI allows these insights to be seen, compared, and explored dynamically. This section explains what the visuals represent and how they connect to the story of stock performance between 2014 and 2017.
 
-**Dashboard Overview**
+- Dashboard Overview
 
+![KPIs](images/chartstockpriceKPI.png)
 At the top of the dashboard, three key summary metrics provide a high-level view of the market during the time period analyzed. The Average Stock Price of $86 reflects the central price tendency across all stocks studied. The Total Trading Volume of 2.12T highlights the significant level of market activity and liquidity. The percentage of stocks that demonstrated positive performance, 75.45%, suggests a generally upward market direction during the time span. Together, these values help frame the narrative of the market as active and growth-oriented.
-[KPIs]([[images/chartstockpriceKPI.png](https://github.com/samMYAce09/Stock-Market-Performance-Analysis-2014-2017-/blob/main/images/chartstockpriceKPI.png)](https://raw.githubusercontent.com/samMYAce09/Stock-Market-Performance-Analysis-2014-2017-/refs/heads/main/images/chart%201%20stock%20price%20analysis.png))
 
+- How Stock Prices Evolved Over Time
+
+Directly below the KPI metrics, a bar chart visualizes how selected stock prices changed across the years 2014 to 2017. The increasing height of the bars for many stocks indicates consistent upward price momentum, hinting at periods of strong corporate performance or broader economic optimism. For other stocks, flatter trends show stability without significant growth, while any noticeable declines suggest challenges unique to those businesses or sectors. This chart allows users to understand long-term performance at a glance.
+
+- Monthly Trading Activity Patterns
+
+On the right side of the dashboard, a line chart illustrates total trading activity across the months. The shape of the curve reveals that trading volume fluctuates with the calendar cycle. Certain months display increased volume, which may align with earnings releases, product announcements, or major market events. Lower months may indicate seasonal slowdowns. This pattern helps viewers recognize when the market tends to be more active, which supports timing-related investment decisions.
+
+- Stocks with the Highest Average Prices
+
+This visualization ranks the stocks by their average trading price. One stock clearly stands out with an average price exceeding $1,300, while the next tier falls between $500 and $700. This helps reinforce that not all high prices imply high performance; rather, prices reflect valuation, perceived value, and market position. The chart gives a sense of how stocks compare to one another in terms of capital weight and investor expectations.
+
+- Trading Activity Distribution
+
+A bar chart highlights which stocks experienced the greatest overall trading activity during the time period. Stocks with significantly higher activity may have attracted increased investor interest, media exposure, or strategic speculation. Lower-activity stocks, on the other hand, may trade in more stable or niche markets. This helps investors understand which stocks are frequently traded and therefore easier to enter and exit positions in.
+
+- Detailed Stock Performance Overview
+
+The stock performance table consolidates all computed metrics into a single view that supports interpretation and comparison.
+
+Each column carries meaning:
+
+- *Stocks* identifies the ticker symbol.
+- *Number of Trading Days* shows dataset completeness and trading availability.
+- *Lowest and Highest Price* reveal the price spread observed during the period.
+- *Short-Term 7-Day Moving Averag* reflects the recent price trend.
+- *Long-Term 30-Day Moving Average* captures broader market direction.
+- *Price Change (%)* measures whether the stock gained or lost value overall.
+- *Average Daily Volume* indicates how actively the stock trades.
+- *Volatility (%)* measures how much prices fluctuate daily, representing investment risk.
+- *Investment Signal* gives a simplified interpretation of the performance outlook.
+
+- Understanding the Investment Signal
+The Investment Signal is derived from Price Change (%) and Volatility (%), combining trend and risk into a single interpretation.
+
+| Signal   | Interpretation                                                                                    |
+| -------- | ------------------------------------------------------------------------------------------------- |
+| **BUY**  | Strong upward trend with controlled volatility. Indicates confidence and potential future growth. |
+| **HOLD** | Stable or moderately positive trend. Suggests monitoring for shifts.                              |
+| **SELL** | Negative or inconsistent performance. Indicates caution or exit consideration.                    |
+For example, a stock like AAPL showing steady price growth with low volatility receives a BUY recommendation. Conversely, AAP, which reflects price decline despite moderate volatility, receives a SELL recommendation.
+
+This table allows investors to evaluate performance and stability together, illustrating not only how the stock behaved but also how reliable that performance may be.
 
 ## Conclusion
 
