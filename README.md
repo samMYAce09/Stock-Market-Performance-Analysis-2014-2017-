@@ -202,6 +202,8 @@ The Investment Signal is derived from Price Change (%) and Volatility (%), combi
 | **BUY**  | Strong upward trend with controlled volatility. Indicates confidence and potential future growth. |
 | **HOLD** | Stable or moderately positive trend. Suggests monitoring for shifts.                              |
 | **SELL** | Negative or inconsistent performance. Indicates caution or exit consideration.                    |
+
+
 For example, a stock like AAPL showing steady price growth with low volatility receives a BUY recommendation. Conversely, AAP, which reflects price decline despite moderate volatility, receives a SELL recommendation.
 
 This table allows investors to evaluate performance and stability together, illustrating not only how the stock behaved but also how reliable that performance may be.
