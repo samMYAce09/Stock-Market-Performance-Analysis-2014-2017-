@@ -155,37 +155,12 @@ This measure visually encodes “BUY,” “HOLD,” and “SELL” recommendati
 
 ## Visual Insights and Interpretation
 
-- Chart 1: Stock Trend Over Time
+The Power BI dashboard provides the interactive layer of the analysis. While Python helped us compute trends, averages, and volatility, Power BI allows these insights to be seen, compared, and explored dynamically. This section explains what the visuals represent and how they connect to the story of stock performance between 2014 and 2017.
 
+**Dashboard Overview**
 
-
-This chart displays how each stock’s price evolved between 2014 and 2017. Clear upward trajectories, like Apple’s, reveal strong investor confidence, while flatter or downward slopes indicate underperformance or market correction periods.
-
-- Chart 2: Moving Averages Comparison
-
-
-
-The 7-day and 30-day moving averages show how short-term momentum interacts with long-term stability. When the short-term line crosses above the long-term line, it suggests positive momentum — a potential buying opportunity.
-
-- Chart 3: Volatility Distribution
-
-
-This visualization shows which stocks are more volatile. A high volatility percentage warns investors of possible rapid price swings — useful for risk-conscious investors.
-
-- Chart 4: Volume Trend
-
-
-Analyzing average trading volume highlights which stocks attract consistent investor attention. High volume suggests liquidity, making it easier to buy and sell shares without large price impacts.
-
-- Chart 5: Investment Summary Table
-
-
-
-The summary table includes columns such as Symbol, Number of Trading Days, Lowest Price, Highest Price, Trend, Volatility (%), Average Daily Volume, and Investment Signal.
-
-This table offers investors a clear side-by-side comparison of multiple companies. The Investment Signal column acts as a guide — showing whether a stock is worth buying, holding, or selling based on combined performance metrics.
-
-For example, a stock with a high price increase and low volatility would likely display “BUY,” while one with flat or negative growth and high volatility would show “SELL.”
+At the top of the dashboard, three key summary metrics provide a high-level view of the market during the time period analyzed. The Average Stock Price of $86 reflects the central price tendency across all stocks studied. The Total Trading Volume of 2.12T highlights the significant level of market activity and liquidity. The percentage of stocks that demonstrated positive performance, 75.45%, suggests a generally upward market direction during the time span. Together, these values help frame the narrative of the market as active and growth-oriented.
+[KPIs](images/chart stock price KPI.png)
 
 
 ## Conclusion
