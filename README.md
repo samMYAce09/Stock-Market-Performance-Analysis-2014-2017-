@@ -168,6 +168,7 @@ Directly below the KPI metrics, a bar chart visualizes how selected stock prices
 
 - Monthly Trading Activity Patterns
 
+![Trading Volume vs Month](images/chart_stock_price_exchange%20volume%20over%20month.png)
 On the right side of the dashboard, a line chart illustrates total trading activity across the months. The shape of the curve reveals that trading volume fluctuates with the calendar cycle. Certain months display increased volume, which may align with earnings releases, product announcements, or major market events. Lower months may indicate seasonal slowdowns. This pattern helps viewers recognize when the market tends to be more active, which supports timing-related investment decisions.
 
 - Stocks with the Highest Average Prices
