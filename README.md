@@ -169,19 +169,25 @@ Directly below the KPI metrics, a bar chart visualizes how selected stock prices
 - Monthly Trading Activity Patterns
 
 ![Trading Volume vs Month](images/chart_stock_price_exchange%20volume%20over%20month.png)
+
 On the right side of the dashboard, a line chart illustrates total trading activity across the months. The shape of the curve reveals that trading volume fluctuates with the calendar cycle. Certain months display increased volume, which may align with earnings releases, product announcements, or major market events. Lower months may indicate seasonal slowdowns. This pattern helps viewers recognize when the market tends to be more active, which supports timing-related investment decisions.
 
 - Stocks with the Highest Average Prices
 
+![Stock With the Highest Average Prices](images/chart_stock_price_symbol_vs_avg._price.png)
+
 This visualization ranks the stocks by their average trading price. One stock clearly stands out with an average price exceeding $1,300, while the next tier falls between $500 and $700. This helps reinforce that not all high prices imply high performance; rather, prices reflect valuation, perceived value, and market position. The chart gives a sense of how stocks compare to one another in terms of capital weight and investor expectations.
 
 - Trading Activity Distribution
+
+![Trading Activity Distribution](images/chart_4_stock_price.png)
 
 A bar chart highlights which stocks experienced the greatest overall trading activity during the time period. Stocks with significantly higher activity may have attracted increased investor interest, media exposure, or strategic speculation. Lower-activity stocks, on the other hand, may trade in more stable or niche markets. This helps investors understand which stocks are frequently traded and therefore easier to enter and exit positions in.
 
 - Detailed Stock Performance Overview
 
 ![Stock_Overview](images/chart5_table_stock_price.png)
+
 The stock performance table consolidates all computed metrics into a single view that supports interpretation and comparison.
 
 Each column carries meaning:
